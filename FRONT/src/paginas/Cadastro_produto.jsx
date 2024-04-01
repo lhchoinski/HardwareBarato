@@ -128,6 +128,7 @@ function Cadastro_produto() {
       <form>
         <label>Nome :</label>
         <input
+          placeholder="Ex. Placa de Video"
           type="text"
           name="nome"
           value={name}
@@ -135,6 +136,7 @@ function Cadastro_produto() {
         />
         <label>Descrição :</label>
         <input
+          placeholder="Ex. 16GB DDR6"
           type="text"
           name="descricao"
           value={descricao}
@@ -142,6 +144,7 @@ function Cadastro_produto() {
         />
         <label>Marca :</label>
         <input
+          placeholder="Ex. Nome da Marca"
           type="text"
           name="marca"
           value={marca}
@@ -149,6 +152,7 @@ function Cadastro_produto() {
         />
         <label>Preço :</label>
         <input
+          placeholder="Ex. R$14.00"
           type="text"
           name="preco"
           value={preco}
